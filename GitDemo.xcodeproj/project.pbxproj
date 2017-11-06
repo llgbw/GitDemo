@@ -14,6 +14,8 @@
 		340D37BB1FB0466C00658B8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 340D37BA1FB0466C00658B8A /* Assets.xcassets */; };
 		340D37BE1FB0466C00658B8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 340D37BC1FB0466C00658B8A /* LaunchScreen.storyboard */; };
 		340D37C11FB0466C00658B8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 340D37C01FB0466C00658B8A /* main.m */; };
+		340D37CD1FB04DA200658B8A /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 340D37CB1FB04DA200658B8A /* OneViewController.m */; };
+		340D37CE1FB04DA200658B8A /* OneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 340D37CC1FB04DA200658B8A /* OneViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,9 @@
 		340D37BD1FB0466C00658B8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		340D37BF1FB0466C00658B8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		340D37C01FB0466C00658B8A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		340D37CA1FB04DA200658B8A /* OneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		340D37CB1FB04DA200658B8A /* OneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		340D37CC1FB04DA200658B8A /* OneViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OneViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +75,9 @@
 				340D37BF1FB0466C00658B8A /* Info.plist */,
 				340D37C01FB0466C00658B8A /* main.m */,
 				340D37B71FB0466C00658B8A /* GitDemo.xcdatamodeld */,
+				340D37CA1FB04DA200658B8A /* OneViewController.h */,
+				340D37CB1FB04DA200658B8A /* OneViewController.m */,
+				340D37CC1FB04DA200658B8A /* OneViewController.xib */,
 			);
 			path = GitDemo;
 			sourceTree = "<group>";
@@ -135,6 +143,7 @@
 				340D37BE1FB0466C00658B8A /* LaunchScreen.storyboard in Resources */,
 				340D37BB1FB0466C00658B8A /* Assets.xcassets in Resources */,
 				340D37B61FB0466C00658B8A /* Main.storyboard in Resources */,
+				340D37CE1FB04DA200658B8A /* OneViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				340D37B31FB0466C00658B8A /* ViewController.m in Sources */,
+				340D37CD1FB04DA200658B8A /* OneViewController.m in Sources */,
 				340D37B91FB0466C00658B8A /* GitDemo.xcdatamodeld in Sources */,
 				340D37C11FB0466C00658B8A /* main.m in Sources */,
 				340D37B01FB0466C00658B8A /* AppDelegate.m in Sources */,
